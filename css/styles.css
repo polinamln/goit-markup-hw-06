@@ -20,11 +20,10 @@ img{
 }
 
 .container{
-    /* max-width: 1158px; */
+    max-width: 1158px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    width: 398px;
 }
 
 
@@ -278,7 +277,7 @@ p, h1,h2,h3,h4,h5,h6{
 .studio-second-section{
     /* padding: 120px 0; */
     padding: 96px 0;
-    width: 396px;
+    max-width: 428px;
 }
 
 .visually-hidden {
@@ -318,8 +317,8 @@ p, h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
-    width: 396px;
 }
+
 .studio-second-p{
     color: var(--slate, #434455);
     font-size: 16px;
@@ -1117,9 +1116,9 @@ input {
 
 /* ~-----------------header------------------ */
 
-@media screen () {
+@media screen and (min-width:428px) {
     .container{
-        min-width: ;
+        max-width: 426px;
     }
 }
 
