@@ -358,6 +358,7 @@ p, h1,h2,h3,h4,h5,h6{
 
 .studio-third-section{
     padding: 0 0 120px 0;
+    display: none;
 }
 
 .studio-third-third-h{
@@ -384,8 +385,9 @@ p, h1,h2,h3,h4,h5,h6{
 
 .studio-fourth-section{
     background-color:#F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    padding: 96px 0;
 }
 
 .studio-fourth-title{
@@ -424,15 +426,21 @@ p, h1,h2,h3,h4,h5,h6{
 }
 
 .studio-fourth-item{
+    margin: 0 auto;
+    width: 264px;
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.studio-fourth-item:not(:last-child){
+    margin-bottom: 72px;
+}
+
 .studio-fourth-list{
-    display: flex;
-    gap: 24px;
+    /* display: flex; */
+    /* gap: 24px; */
     margin-top: 72px;
 }
 
@@ -448,6 +456,7 @@ p, h1,h2,h3,h4,h5,h6{
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .media-fourts-link:hover{
@@ -496,15 +505,13 @@ p, h1,h2,h3,h4,h5,h6{
 
 .fifth-section-icon{
     fill: currentColor;
-    width: 168px;
+    width: calc((100% - 1 * 16px) / 2);
     height: 88px;
 }
 
 .fifth-section-link{
     border: 1px solid var(--lightslate, #8E8F99);
     border-radius: 4px;
-    width: 168px;
-    height: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,11 +520,14 @@ p, h1,h2,h3,h4,h5,h6{
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+
 }
 
 .studio-fifth-icons{
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+    justify-content: center;
 }
 
 .fifth-section-link:hover,
@@ -532,7 +542,6 @@ p, h1,h2,h3,h4,h5,h6{
 .fifth-section-icon:focus{
     fill: #404BBF;
 }
-
 
 
 
@@ -553,26 +562,34 @@ p, h1,h2,h3,h4,h5,h6{
 }
 
 .studio-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    padding-top: 97.5px;
+    padding-bottom: 96px;
 }
 
 .footer-items {
-    display: flex;
-    align-items: baseline;
+    /* display: flex; */
+    /* align-items: baseline; */
 }
 
 .footer-text{
-    margin-right: 120px 
+    /* margin-right: 120px  */
 }
 
 .footer-link {
     display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 17.5px;
 }
 
 .footer-p {
-    width: 264px;
-    margin-top: 16px;
+    /* width: 264px;
+    margin-top: 16px; */
+    width: 268px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .footer-media-title {
@@ -582,6 +599,7 @@ p, h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .media-footer-link {
@@ -615,7 +633,9 @@ p, h1,h2,h3,h4,h5,h6{
 }
 
 .footer-media{
-    margin-right: 80px;
+    /* margin-right: 80px; */
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .social-icon-footer{
@@ -630,6 +650,7 @@ p, h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 
@@ -645,12 +666,14 @@ p, h1,h2,h3,h4,h5,h6{
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    width: 264px;
+    /* width: 264px; */
+    width: 100%;
     height: 40px;
     background-color: transparent;
     padding: 8px 16px;
 
     outline: transparent;
+    margin-bottom: 16px;
 }
 
 .footer-input::placeholder{
@@ -687,6 +710,8 @@ p, h1,h2,h3,h4,h5,h6{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    margin: 0 auto;
+
 }
 
 .footer-subcribe-btn:hover,
@@ -699,9 +724,9 @@ p, h1,h2,h3,h4,h5,h6{
 }
 
 .footer-form{
-    display: flex;
+    /* display: flex;
     align-items: baseline;
-    gap: 24px;
+    gap: 24px; */
 }
 
 /* ~-----------------MODAL------------------ */
@@ -725,9 +750,12 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    padding: 72px 24px 24px 24px;
+    /* padding: 72px 24px 24px 24px; */
+    padding: 72px 16px 24px 16px;
 
-    width: 408px;
+    /* width: 408px; */
+    max-width: 392px;
+
     min-height: 584px;
     flex-shrink: 0;
     border-radius: 4px;
