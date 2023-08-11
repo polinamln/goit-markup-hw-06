@@ -1477,7 +1477,6 @@ input {
 
 .logotipe {
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .header-nav{
@@ -1600,7 +1599,7 @@ input {
     /* ~-----------------5------------------ */
 
 .studio-fifth-icons {
-    gap: 0 24px;
+    gap: 72px 24px;
 }
 
 
@@ -1646,5 +1645,18 @@ input {
         .footer-link{
             text-align: start;
         }
+
+                .footer-first-wrap {
+                    display: flex;
+                    gap: 0;
+                }
+        
+.footer-items {
+    gap: 0;
+}
+
+.footer-form{
+    flex-wrap: wrap;
+}
                 
 } 
