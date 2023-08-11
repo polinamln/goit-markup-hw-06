@@ -1403,7 +1403,9 @@ input {
 }
 
 .footer-input {
-    width: 264px;
+    max-width: 264px;
+    min-width: 164px;
+    width: 100%;
 }
 
 .footer-p-subscribe{
@@ -1634,6 +1636,12 @@ input {
             gap: 24px;
         }
 
+        .footer-subcribe-btn{
+            width: 100%;
+            max-width: 117px;
+        }
+
+
         .footer-p{
             margin-bottom: 0;
         }
@@ -1653,10 +1661,6 @@ input {
         
 .footer-items {
     gap: 0;
-}
-
-.footer-form{
-    flex-wrap: wrap;
 }
                 
 } 
