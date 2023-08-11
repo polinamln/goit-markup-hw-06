@@ -1345,6 +1345,14 @@ input {
     flex-wrap: wrap;
 }
 
+.studio-second-p{
+    text-align: start;
+}
+
+.studio-second-title{
+    text-align: start;
+}
+
 .studio-second-item{
     flex-basis: calc((100% - 1 * 24px) / 2);
 }
@@ -1385,12 +1393,12 @@ input {
     padding-left: 108px;
 }
 
-.footer-items {
+/* .footer-items {
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0 24px;
-}
+} */
 
 .footer-first-wrap{
     display: flex;
@@ -1420,6 +1428,7 @@ input {
 
 .footer-link{
     margin-bottom: 0;
+    text-align: start;
 }
 
 .footer-media-title{
