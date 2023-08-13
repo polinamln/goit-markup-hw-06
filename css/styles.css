@@ -56,9 +56,6 @@ p, h1,h2,h3,h4,h5,h6{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 
-    width: 100%;
-    max-width: 428px;
-    margin: auto;
     position: relative;
 }
 
@@ -66,7 +63,6 @@ p, h1,h2,h3,h4,h5,h6{
     height: 72px;
     display: flex;
     align-items: center;
-    gap: 332px;
 }
 
 .header-nav-btn{
@@ -127,15 +123,9 @@ p, h1,h2,h3,h4,h5,h6{
     list-style-type: none;
 }
 
-.studio-navigation-item{
-
-}
-
 .navigation-item{
     color: #404bbf;
 }
-
-
 
 .navigation-menu-studio{
     
@@ -147,8 +137,6 @@ p, h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.02em;
     padding: 24px 0;
     position: relative;
-
-    
 }
 
 
@@ -179,8 +167,6 @@ p, h1,h2,h3,h4,h5,h6{
     color: #404bbf;  
 }
 
-
-
 .address{
     font-style: normal;
 }
@@ -209,24 +195,6 @@ p, h1,h2,h3,h4,h5,h6{
     padding: 24px 0;
 }
 
-.navigation-list{
-    /* align-items: center;
-    margin-left: 76px;
-    display: flex;
-    gap: 40px; */
-}
-
-.contacts-list{
-    /* display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-right: auto; */
-    display: none;
-}
-
-/* .logotipe{
-    margin-right: 249px;
-} */
 
 .mob-menu{
     width: 100vw;
@@ -1274,9 +1242,6 @@ input {
             box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 1px 6px rgba(46, 47, 66, 0.08);
-    
-            width: 100%;
-            max-width: 768px;
         }
 
         .navigation-list-portfolio{
@@ -1287,13 +1252,10 @@ input {
             display: block;
         }
 
-        .logotipe {
+        .logotype {
             margin-right: 120px;
          }
 
-         .header-container{
-            gap: 121px;
-         }
 
         .contacts a{
             font-size: 12px;
@@ -1458,14 +1420,7 @@ input {
     height: 72px;
     display: flex;
     align-items: center;
-    gap: 332px;
 }
-
-    .studio-header {
-        max-width: 1158px;
-        width: 100%;
-        margin: 0 auto;
-    }
 
     .contacts-list{
     display: flex;
@@ -1474,11 +1429,6 @@ input {
     margin-right: auto;
 }
 
-.studio-header{
-    max-width: 1440px;
-    width: 100%;
-    margin: 0;
-}
 
 .contacts a {
     font-size: 16px;
@@ -1487,7 +1437,7 @@ input {
     width: 151px;
 }
 
-.logotipe {
+.logotype {
     margin-right: 76px;
 }
 
