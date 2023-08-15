@@ -1733,7 +1733,7 @@ input {
 
 @media screen and (min-width: 1158px) {
     .portfolio-first-section {
-            padding: 64px 0;
+            padding: 100px 0 120px 0;
             width: 1128px;
         }
         .portfolio-second-li {
@@ -1742,7 +1742,5 @@ input {
         .portfolio-second-items {
             gap: 40px 24px;
         }
-        .portfolio-second-section {
-            padding-bottom: 120px;
-        }
+
 }
