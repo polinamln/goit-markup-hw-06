@@ -317,7 +317,7 @@ p, h1,h2,h3,h4,h5,h6{
         background-position: center;
     /* max-width: 1440px; */
     width: 100%;
-    max-width: 428px;
+    max-width: 768px;
     /* padding: 188px 0; */
     padding: 112px 0;
     margin: 0 auto;
@@ -1293,6 +1293,8 @@ input {
         rgba(46, 47, 66, 0.70)
         ), 
         url(../images/background-img-studio-tab.jpg);
+        width: 100%;
+        max-width: 1158px;
         }
 
         @media (min-device-pixel-ratio: 2),
@@ -1310,10 +1312,6 @@ input {
             display: none;
         }
 /* ~-----------------1------------------ */
-
-.studio-first-section{
-    max-width: 768px; 
-}
 
 .studio-first-title{
     margin-bottom: 36px;
@@ -1495,6 +1493,7 @@ input {
         rgba(46, 47, 66, 0.70)
         ), 
         url(../images/background-img-studio.jpg);
+        width: 100%;
         max-width: 1440px;
         padding: 188px 0;
         }
