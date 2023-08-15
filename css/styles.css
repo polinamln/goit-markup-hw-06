@@ -258,8 +258,9 @@ p, h1,h2,h3,h4,h5,h6{
 .contact-mob-link-tel{
     color: var(--iris, #4D5AE5);  
     font-family: Roboto;
-    font-size: 20px;
     font-style: normal;
+    /* font-size: 36px; */
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -287,7 +288,8 @@ p, h1,h2,h3,h4,h5,h6{
 
 .mob-menu-list-media{
     display: flex;
-    justify-content: space-between;
+    gap: 56px;
+    /* justify-content: space-between; */
 }
 
 .mob-menu-wrap{
