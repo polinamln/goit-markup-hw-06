@@ -248,9 +248,10 @@ p, h1,h2,h3,h4,h5,h6{
     color: var(--ocean, #404BBF);
 }
 
-.mob-menu-item:not(:last-child){
+.mob-list-item:not(:last-child){
     margin-bottom: 40px;
 }
+
 
 .contact-mob-link-tel{
     color: var(--iris, #4D5AE5);  
